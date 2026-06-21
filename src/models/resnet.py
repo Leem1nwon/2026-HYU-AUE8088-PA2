@@ -32,12 +32,26 @@ class BasicBlock(nn.Module):
         #   conv3x3(in_c, out_c, stride) -> BN -> ReLU
         #   conv3x3(out_c, out_c)        -> BN
         # then add the (possibly downsampled) identity, then ReLU.
-        raise NotImplementedError("Level 1: implement BasicBlock")
+        self.residual_branch = nn.Sequential(
+            conv3x3(in_c, out_c, stride),
+            nn.BatchNorm2d(out_c),
+            nn.ReLU(inplace=True),
+            
+            conv3x3(out_c, out_c),
+            nn.BatchNorm2d(out_c)
+        )
+        self.downsample = downsample
+        self.relu = nn.ReLU(inplace=True)
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
         identity = x
         # TODO: residual branch + skip + ReLU
-        raise NotImplementedError
+        x = self.residual_branch(x)
+        if self.downsample is not None:
+            identity = self.downsample(identity)
+        x += identity
+        x = self.relu(x)
+        return x
 
 
 class Bottleneck(nn.Module):
@@ -50,10 +64,29 @@ class Bottleneck(nn.Module):
         #   conv3x3(mid_c, mid_c, stride)   -> BN -> ReLU
         #   conv1x1(mid_c, mid_c*expansion) -> BN
         # plus skip and ReLU.
-        raise NotImplementedError("Level 1: implement Bottleneck")
+        self.residual_branch = nn.Sequential(
+            conv1x1(in_c, mid_c),
+            nn.BatchNorm2d(mid_c),
+            nn.ReLU(inplace=True),
+            
+            conv3x3(mid_c, mid_c, stride),
+            nn.BatchNorm2d(mid_c),
+            nn.ReLU(inplace=True),
+            
+            conv1x1(mid_c, mid_c * self.expansion),
+            nn.BatchNorm2d(mid_c * self.expansion)
+        )
+        self.downsample = downsample
+        self.relu = nn.ReLU(inplace=True)
 
     def forward(self, x: torch.Tensor) -> torch.Tensor:
-        raise NotImplementedError
+        identity = x
+        x = self.residual_branch(x)
+        if self.downsample is not None:
+            identity = self.downsample(identity)
+        x += identity
+        x = self.relu(x)
+        return x
 
 
 class ResNet(nn.Module):
@@ -68,7 +101,7 @@ class ResNet(nn.Module):
         self.maxpool = nn.MaxPool2d(kernel_size=3, stride=2, padding=1)
 
         # Stages.
-        self.layer1 = self._make_layer(block, 64, layers[0], stride=1)
+        self.layer1 = self._make_layer(block, 64, layers[0], stride=1)  # block: 어떤 블록을 쓸지 (Basic / Bottleneck), layers: 각 stage 별 블록 개수
         self.layer2 = self._make_layer(block, 128, layers[1], stride=2)
         self.layer3 = self._make_layer(block, 256, layers[2], stride=2)
         self.layer4 = self._make_layer(block, 512, layers[3], stride=2)
@@ -83,7 +116,18 @@ class ResNet(nn.Module):
         # TODO: build a stage of ``blocks`` residual blocks. The first block
         # may need a 1x1 downsample on the identity if stride != 1 or
         # in_c != planes * block.expansion.
-        raise NotImplementedError("Level 1: implement _make_layer")
+        downsample = None
+        if stride != 1 or self.in_c != planes * block.expansion:
+            downsample = nn.Sequential(
+                conv1x1(self.in_c, planes * block.expansion, stride),
+                nn.BatchNorm2d(planes * block.expansion)
+            )
+        layers = []
+        layers.append(block(self.in_c, planes, stride, downsample))
+        self.in_c = planes * block.expansion
+        for _ in range(1, blocks):
+            layers.append(block(self.in_c, planes))
+        return nn.Sequential(*layers)
 
     def _init_weights(self) -> None:
         for m in self.modules():
