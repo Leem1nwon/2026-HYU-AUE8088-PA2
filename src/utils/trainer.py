@@ -17,6 +17,7 @@ from torch import nn
 from torch.utils.data import DataLoader
 from tqdm import tqdm
 
+from src.augment.mix import cutmix_data, mixed_loss, mixup_data
 from src.datasets.bdd_attr import ATTRIBUTES
 from src.utils.metrics import average_macro_f1, collect_predictions, per_attribute_macro_f1
 from src.utils.wandb_logger import WandbLogger
@@ -56,6 +57,11 @@ class MultiTaskTrainer:
 
     def fit(self, train_loader: DataLoader, val_loader: DataLoader) -> dict:
         history = {"train_loss": [], "val_avg_mf1": [], "val_per_mf1": []}
+        # Track the best-Avg-MF1 epoch so the deployed checkpoint reproduces the
+        # reported best number (the loop runs to the last epoch regardless).
+        self.best_val_avg_mf1 = -1.0
+        self.best_epoch = -1
+        self.best_state = None
 
         for epoch in range(self.cfg.epochs):
             train_loss = self._train_one_epoch(train_loader, epoch)
@@ -64,6 +70,12 @@ class MultiTaskTrainer:
             history["train_loss"].append(train_loss)
             history["val_avg_mf1"].append(val_metrics["avg_macro_f1"])
             history["val_per_mf1"].append(val_metrics["per_macro_f1"])
+
+            if val_metrics["avg_macro_f1"] > self.best_val_avg_mf1:
+                self.best_val_avg_mf1 = val_metrics["avg_macro_f1"]
+                self.best_epoch = epoch + 1
+                self.best_state = {k: v.detach().cpu().clone()
+                                   for k, v in self.model.state_dict().items()}
 
             if self.scheduler is not None:
                 self.scheduler.step()
@@ -128,3 +140,73 @@ class MultiTaskTrainer:
             "probs": probs,
             "targets": targets,
         }
+
+
+class MixupTrainer(MultiTaskTrainer):
+    """MultiTaskTrainer with Mixup / CutMix augmentation in the training step.
+
+    Level 3 augmentation branch. Each batch is mixed with probability
+    ``mix_prob``; when mixed, Mixup and CutMix are chosen 50/50 (matching the
+    Level 3 notebook's ``step_with_mix``). The 3-head label mixing is handled by
+    ``src.augment.mix.mixed_loss`` — the same ``lam`` is applied to all three
+    attribute targets. Evaluation path is inherited unchanged (no mixing at val).
+    """
+
+    def __init__(
+        self,
+        *args,
+        mixup_alpha: float = 0.2,
+        cutmix_alpha: float = 1.0,
+        mix_prob: float = 1.0,
+        **kwargs,
+    ) -> None:
+        super().__init__(*args, **kwargs)
+        self.mixup_alpha = mixup_alpha
+        self.cutmix_alpha = cutmix_alpha
+        self.mix_prob = mix_prob
+
+    def _train_one_epoch(self, loader: DataLoader, epoch: int) -> float:
+        self.model.train()
+        running = 0.0
+        n_batches = 0
+
+        pbar = tqdm(loader, desc=f"train e{epoch+1}", leave=False)
+        for batch in pbar:
+            x = batch["image"].to(self.device, non_blocking=True)
+            y = {a: batch[a].to(self.device, non_blocking=True) for a in ATTRIBUTES}
+
+            self.optimizer.zero_grad(set_to_none=True)
+
+            use_mix = torch.rand(1).item() < self.mix_prob
+            if use_mix:
+                if torch.rand(1).item() < 0.5:
+                    xin, ya, yb, lam = mixup_data(x, y, alpha=self.mixup_alpha)
+                else:
+                    xin, ya, yb, lam = cutmix_data(x, y, alpha=self.cutmix_alpha)
+            else:
+                xin = x
+
+            with torch.amp.autocast(device_type="cuda", enabled=self.cfg.amp):
+                logits = self.model(xin)
+                if use_mix:
+                    loss = mixed_loss(
+                        self.loss_fns, logits, ya, yb, lam, weights=self.cfg.loss_weights
+                    )
+                else:
+                    loss = sum(
+                        self.cfg.loss_weights[a] * self.loss_fns[a](logits[a], y[a])
+                        for a in ATTRIBUTES
+                    )
+
+            self.scaler.scale(loss).backward()
+            if self.cfg.grad_clip is not None:
+                self.scaler.unscale_(self.optimizer)
+                nn.utils.clip_grad_norm_(self.model.parameters(), self.cfg.grad_clip)
+            self.scaler.step(self.optimizer)
+            self.scaler.update()
+
+            running += loss.item()
+            n_batches += 1
+            pbar.set_postfix({"loss": f"{loss.item():.4f}"})
+
+        return running / max(n_batches, 1)

@@ -21,6 +21,22 @@ def train_transform(img_size: int = 224) -> transforms.Compose:
     ])
 
 
+def train_transform_randaug(img_size: int = 224, num_ops: int = 2, magnitude: int = 9) -> transforms.Compose:
+    """Level 3 augmentation — RandAugment on top of the base geometric crop/flip.
+
+    RandAugment already covers color/contrast/shear/rotate ops, so we drop the
+    explicit ColorJitter to avoid double-perturbing color. Operates on the PIL
+    image before ToTensor.
+    """
+    return transforms.Compose([
+        transforms.RandomResizedCrop(img_size, scale=(0.7, 1.0)),
+        transforms.RandomHorizontalFlip(),
+        transforms.RandAugment(num_ops=num_ops, magnitude=magnitude),
+        transforms.ToTensor(),
+        transforms.Normalize(IMAGENET_MEAN, IMAGENET_STD),
+    ])
+
+
 def eval_transform(img_size: int = 224) -> transforms.Compose:
     return transforms.Compose([
         transforms.Resize(img_size),

@@ -1,0 +1,7006 @@
+{
+  "strategy": "random-1000 baseline (DI denominator)",
+  "num_picks": 1000,
+  "picks": [
+    {
+      "image_id": "71863a3f-5c2f3be6",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "15c0edab-4cb3b2e1",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "14df900d-bdfe5ec0",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "157c2b67-a8007367",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7e028cea-fe820d81",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8497affd-f5408c0d",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "47a00316-909841b8",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "43407e86-b7a933e4",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0c4488d8-b9f4087a",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "39b8e2ee-7c0bc585",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5bbdb38f-56be03a1",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0526fe78-ad2264aa",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "99b076c2-a601a84c",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1ebca830-d04fa3a1",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "53726b21-7bd232b1",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "06b4defc-3e12ab7b",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1ada33f6-c4f1045e",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3af9b86e-bde99ec4",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9e9ec7db-0636ec8f",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "aec2a6aa-449fc99d",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9e5c9c86-067fc13a",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4574df2c-bedbd518",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "62960318-45643918",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1989c447-c88760b5",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2238edb7-0ece1727",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a224d3eb-abfa51f2",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5af1502c-830d6c04",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "590c0289-225898e4",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "08e4f0af-3b719b39",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "08fd4409-8f74fefd",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "ab93e3c6-d994ffc3",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9aefbd42-58d9339a",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "441227b4-fefa2397",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "551e5e34-b7bfc47e",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "930e8346-bf1c9060",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0ec99587-ca663a13",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7554131a-22437470",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "874e5af9-fa8b0b88",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2f78a740-af5e4806",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "30db959a-a67a62cf",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "21fcdca7-e2e82f9f",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7b426bf3-fe11ad9d",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "075d08d3-8206da91",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4c657544-1bbb521e",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3e1d58f4-4c718e15",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "96c7e140-9a34f6fc",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8dd9cd9c-7399df98",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6500741d-7d598724",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "42997873-018eab80",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8e1f1d03-b7892b88",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1639f49e-7aa4b3aa",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5eb2a426-b3715916",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4aafecec-f4fe29e0",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6b994274-0016f6dd",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "33d5dfd2-98071306",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8c51607c-3acf54b8",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "24efe18e-2c30700b",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4f78bf79-e1b6b2d6",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "10623982-570b5eac",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "375247ed-969e6dd0",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6cd0c067-493835db",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4b767e83-4a146016",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a5fca0c2-691ed33e",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "528f2be0-3d6cd5b9",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8a520ce4-0c4c7a1d",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3877a025-679213a4",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0ec4ac33-df3d55c6",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "29600244-8a692002",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8da172cf-577329d4",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "26255520-b61e1f67",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "028c7891-a4644551",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "391bbd45-f8c1beec",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "46657cdf-d1965718",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8c0832f8-4bc5aeba",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "01fa5cc7-c41fe747",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "51a79f7c-055cecfe",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "30d85926-22235a49",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8309180a-d573d2f1",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5cf4a6f1-544cc7d2",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9a3d3f00-40dcce8b",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "69f76226-e219ad7d",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "14f595f5-4c7e8653",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a6030aa5-e25b192b",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "419ad787-18d2b137",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3c90ec71-edb4d611",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4b04ea86-6034f16d",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4ea2d1e9-5767fcdb",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6ea4cd53-139046db",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "81f6fd62-e6306228",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1fd0f6e8-b2769144",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8bb1f034-a3834d5c",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "95349373-45a6ce9a",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "09be05bd-30224d54",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3ad71ba9-4cd583b0",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8b74f1bf-9f10a5fd",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0418be7f-337a1901",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "24e0b338-a0378ff9",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "12ba9f53-5f545681",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "74058d8a-452ee831",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3842e612-d3158d4e",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0c3bef37-6b979c98",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "194e84c6-bfd8f91a",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1a2e36d4-7f3e8a9c",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "71c96f87-794518f0",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "08f7bc96-82c4d570",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1e8b87a9-ad66a9a2",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3e9ed8c9-18fada18",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "02086f50-c1e5d802",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a6cf49be-22fb5009",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "439c1313-3d04d575",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "933c4505-02a99ec0",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "554aa65e-2adbd1de",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7a12c4c2-aa50f81f",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9c94f476-461bcdd5",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "064677da-8d4063f4",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "133a443d-88a3020f",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3f1bbf32-03a4e8fe",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "49df1fae-7e9327d2",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "80c62ee8-6713b9da",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "22cbb1db-46b93e2b",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a559024c-64610f73",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "21a760f5-eec9bb6d",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "85510cdc-777c18d3",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9fbdb044-02a08068",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8c15e4d0-aed7aa0d",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0a4038ba-d142516c",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3b146563-5cd4f75d",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "82d5d8ae-716f47bc",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "898f15dd-8f3da606",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "14665c9a-83b354f9",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7ec84a33-064c2263",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "25926759-9ce5f824",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0ba6f2ab-060d43b9",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a5a2f787-5de272ee",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9af3fd21-e0dd7fe0",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0ca8d9fa-9cac611b",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5b1a62f1-0e829af2",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "372126ea-d8c77bac",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "38e5e93f-88160394",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0f6bd69d-7e4b3caf",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9668b76d-e1c15f0d",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "68325a52-f06ba32b",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7238fc23-62a4c52b",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a3fbe37d-0ebafbd6",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "190bb329-7ee4621f",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4027c10d-41d54e9b",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a7e8be68-365e1c7a",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1989c447-0db38c5b",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2c479670-ab5c4489",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "866e98e8-b4c15e97",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "25cbfec5-12e76a8a",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5c25d741-b75f339c",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7707475a-f8297c97",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a740e4e5-f3ddb141",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "52a608d9-498ef153",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "189ca5ba-ab7001df",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7d57fbb6-28831495",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4b84b07e-a7baff21",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4426f185-b1903112",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5d7fd231-31f2fb02",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1eb8eaf1-a34facf5",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9ccd71f3-4f569d0e",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "148c8320-a137f37e",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "773c53f2-d08f32d1",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2f4f446d-7bab9011",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "45352101-659be342",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "73b37c24-a864575b",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "49469fcc-51b46c57",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4f8e68f8-fe97f682",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0bbb23ca-eb134383",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "92fef98f-4a96ef33",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "66f8e641-7b7891ad",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "32ce4634-214f8331",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8ce5d71d-d9726a79",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4c52616a-b7e5497c",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "67712eb3-67218e0d",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8e720571-f649350e",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "21fd3bf5-14779167",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a7c3e51a-b5b4f0e6",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "449f1d66-45483dbd",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "08c30aed-efd44b47",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "45626753-4b03ad95",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9280af89-f0491480",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6d7da33d-f5c6b1a4",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "99405beb-4d6bae64",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7e9d3327-6efba1fb",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "87b2227d-b195407a",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "760a3060-78a7a9e6",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "68ca5856-8b2c6b69",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3fc6dc81-9812ec15",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2c2c7758-9528abbc",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "79d05942-4dfb5df4",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5f0b5c6f-9ed3d1eb",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2e684669-86de938e",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "711f11ce-ed8ecf79",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2c329697-8ca3ac56",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "924a51e5-a5d3cfac",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a43b8843-5e0c4102",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a544de72-bedd027a",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "664d4f62-dce7cf9c",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8fa0d429-0aae0192",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "38d1789f-a3ff7b74",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9b1fc92b-2bd4fbf1",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "b14a05a1-4b556eec",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4e66a482-11e48b39",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "14eb5976-56de5300",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "66cc1919-a15508b5",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5cbb1cf1-cdf3cec1",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9bb61cb1-4597b779",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0ec63036-9f6c4258",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4e308af8-b20f484a",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "ac94dc1f-f0c1bc2e",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4aa359f2-e5e413ab",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a2271fdd-e82ebca2",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "19167d13-0a0bca18",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4e01fa92-a7b7f36f",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9a0ed8b9-5d950331",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7c909814-2b228d26",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "518d7851-98d455db",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "ac1baa04-e19fff34",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7f3e29de-694e34e4",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8eefdb64-c04c48da",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "01ee7c33-667e3aa0",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "ab1be3eb-98318697",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7ddee2c7-96be88a7",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "150a973a-6772fd20",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "02a7e164-14ba1015",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "03a1130c-8c69a61a",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "46df82e5-149b3261",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "28dba887-bbd225ba",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0653917b-1724f36d",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1a184bb3-1d002eac",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2d085c1b-5c1e9a01",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2e629293-69a76fbe",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6ce00bf0-e53588ae",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4ee28685-ac80ab2c",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9948ab2f-8c901c72",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "42c0494b-927f0f71",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "915e2723-cf55eef2",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "66f3bc65-81c721ac",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "53b19679-2ebb000b",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "06ec79fd-a832f627",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "09ac7416-a3f1d634",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "897ca036-bb52cbdf",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "02c26e9d-959a8a8d",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9dfb72de-7354cd2e",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2988b194-f325cad1",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "779e82a5-5c6bf22e",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "35f3d50a-7fa422d0",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3f25a9d2-33e29cbd",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a5ffb322-db34b711",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "910cb6f4-96a25693",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7b63bc0c-97deada4",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "537923f0-3d2fe0ec",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2b54fe2d-c5b810e6",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "02f767b2-c435cd50",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1b122422-cad61d00",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6fe7d6af-2867621a",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "958fa077-6ccf7fdf",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "23c94ec0-40332d3e",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "b10bdf79-470a5adc",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9fee0197-1aaac1b9",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6605c97a-7525efd1",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "06ff7d61-1fa52d1c",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2246fef6-74258bfe",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6312286b-f97e072e",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "64508aa8-edd5e12e",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5c8ce9d5-692fead2",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7690463b-bafa470e",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "09e2ff07-1eac3342",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "55e1f35f-a3221376",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6f878705-61a9e23e",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5c55db64-8a80d3d0",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "387befa9-8f3b5a46",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "66541365-e178337d",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "ae00c7f0-1e36feef",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6c1f5e8c-0d0eedd7",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2cbcb585-0a29b53b",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a79fd55c-12f7b7d1",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "16d2d953-79149ca8",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4fac42d1-f01cb54a",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "aba98004-6bced7fb",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5e09670a-cccc1b02",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "45186682-afed04fa",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9e4a1e38-59775ffb",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9e98a2bd-643f02a9",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a530a672-41df0aea",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7e181b3e-1f551cf0",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "36e1bafa-289d866d",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "591dd9e7-409a06c7",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0afcc76f-109081ad",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9081cc9d-f0d56e0b",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "10a18a70-851b463c",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "ad6663c0-ee143e5a",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2ceac3cd-0f50261b",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6fed4e85-a4650237",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a7ce71c4-0ef14a47",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "934f8bfa-d82d00d6",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5bf4a878-2f4a90f9",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "55fa9c72-0403e670",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2f91eaa4-72459758",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "b130064b-bf94b907",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a3f1ed2e-63dc3ab1",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "604b6b01-4887a2e0",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3734a3ef-4e44668a",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3b6e9e4e-20b8f8b7",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "781529a8-d441e6b9",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0aa2a2da-f343faa4",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "ab12975c-a7c05592",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6aa97d0c-5adeb3a5",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "505ca3b1-f54006b1",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5b984da1-5d5505df",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "76dc48e7-49822006",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "73a75b7c-9b11b4cc",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "aee0a8e9-379f2a9a",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "10207d8b-51cc5ed6",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "38710a32-8d2d65f9",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "67cc64dc-24a21c0b",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "af19251c-538d0b92",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "55a78cea-8388670c",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "709376bb-30272868",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9e2e4654-f7346285",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6b099ca0-32ba83d9",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5b2eef50-6c4963ea",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4acf1374-24d997be",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "58131720-d7efaed1",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3d9b1c8e-c6e6ea92",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9b9e4bc5-4d015b62",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0a11fb20-76cf7b52",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "59e82161-a823aa62",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "70e33c4f-593ab08f",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1865155b-1eb6588d",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "847c5cab-9b98efa3",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3d6a7ef4-13458d94",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "03567106-32193027",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "66effbb9-21efa6e0",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "55e248b7-fcebb446",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7f5d2af2-7e50ef69",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "839a6e84-d394eae1",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "494ccbdd-06b1160e",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6aa400f6-b6add4b0",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "690da475-160ecabb",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "498ce2b9-158eef6b",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5ea62209-d13de28b",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7d1489f1-c833f41c",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "97ceb65d-27e6da8f",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0bd56920-dc6a2e94",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "07f00d34-6155d2d2",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3167c7cf-9ae27bdd",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a5b9090d-1aed01fc",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1cc4238c-7b557288",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "938123da-82b7f4b2",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0d49a136-9c9e9638",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "22d32d28-1e24d7c3",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0ac47490-900fb1f7",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1e1ff90e-24d540ec",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "62443f8e-295f07a3",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "92da3202-684b83fc",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "94ee5a45-04265e88",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "69a8216f-87415d75",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8b58d4a2-2831a6c4",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "af81a0fb-d3560122",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "18c4d009-ff11950d",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3de9984e-5b956b09",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "89d9c56a-be4e25a9",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a7285502-7821a448",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2a5426eb-c02f5e68",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "12dd7b8f-0cc70e52",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5b492010-e05c9518",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "91dac181-97d3c266",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "17cea723-b622fe45",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "587ad91a-8aab4d28",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "941261c8-3d4897bb",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7410e2dd-fa0d9607",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "399dbdd1-2b455ed2",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "84962055-82451f73",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "867e4270-dca3ed79",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4d91af3d-40ca8145",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1e8bc3d5-980ad0e2",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3f6cc742-c85d636c",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "04056725-14e1b11d",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6d654a7c-9684ad8a",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4c18926c-81c36bba",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1224364f-31d0655b",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "75cdb8c0-d553488a",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6956a22e-d1d2c872",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "72e03ced-19c5ab59",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7d2cdf5c-6a9d4406",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2c4e4802-2a30ac41",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a0463b9b-92241f33",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "32a12e83-a4be1165",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "22222e01-63bcafa2",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "305a40c9-2c901f95",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3254da31-045f3edc",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "94ba12cc-1872f672",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "ac988101-a1a27685",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "71b85c7e-fba98cc8",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "204e35f4-add7f143",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7a4e7466-29405016",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3bdb8590-d2a9ad60",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "57cb7347-3bbfa56d",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a10fdc1c-e443583f",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0375374a-c7cb24f2",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "03a3f4e6-caeaf05d",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a98e2bc9-dd54449a",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "63295bf4-29d93f62",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "79fe7fcd-c48935d2",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4331550a-7ade6f66",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2da1f040-9f938c79",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a822c459-5d3f738f",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1d73551a-f09f237c",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3d562b4c-6be60e70",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "95aa7280-8e588831",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4d9f7e83-b6e9438a",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6aa35f83-8e648c8d",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5995c288-45fa9eb1",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0611f5ad-08d66d5c",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5f3d7036-3575c1d3",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "ab4edc1b-adea1c09",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8ace0394-68816d78",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "467008a0-68ead0a2",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3bb55d20-6f1db5f9",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "03e19d79-c79b6a0f",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "81fcd391-068dc1d7",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "69894cc6-21878cf5",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "b19b87e3-f576fec3",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "246e5e7f-5f9359ab",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1f54213a-c73cc604",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0a687576-894eae7b",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "91287778-1107046f",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8dfd0ed6-2bdf2471",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6d58f563-b8378dbc",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "283310a2-4e7bf4d2",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "55619894-e431b239",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "51ca17ab-d6c4cdb4",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5fc93bea-4753652a",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5b7255d9-6f8e6964",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "21de30bc-56c2d74f",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "45f53a74-d0571e54",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "87cfb905-732a6083",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "67f4f80b-1831551f",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0b833acc-7d592423",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0390cdb2-1f193811",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "55bd9a88-418e6c58",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "24f4ab6d-4d9f6cdb",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "310b9601-b06d04b7",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "aaf01276-2e28db75",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5b27653c-3b382bb7",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "07baa41b-e992e1fa",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "72311e3f-447ee9cb",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "75bcbf48-f2e5e6d1",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "38ffcfe7-bcbe0ac7",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2c77bd4b-dbee3c2c",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0dd43ea5-7c518085",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "39fab236-f336d314",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "14d27cee-c90b8eb6",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "79657fb3-35127b4e",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "506748cf-58fe739b",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7bc4f632-f74628dd",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9bb05e93-464b2cc1",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "155b2efa-fee0e074",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "772ac765-d2b81a4e",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "32427ac4-b14e188b",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "250d9cd1-2a9273c0",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9b8de371-cc7d066a",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4470c73c-1add6809",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7dc2914d-99a7d8e1",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2943d2df-55387e82",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6ef10939-6a3404dc",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2c17ed70-18166a30",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3c4403cc-15a4d350",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "23b2a741-cee8e8da",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "53a82779-bd492444",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5aad57e0-b56eee98",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "ac39847d-149eab0b",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "91928bb2-4767319c",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "50dbed14-39f52920",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "310af181-3fa0e93b",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "344edfb3-35fe4d98",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "72ecaceb-ab183958",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8d0eebb5-4a4bef66",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0c30d205-35384df0",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "72ac6287-d16195c4",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "aef72477-f640501f",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5ff476c0-637fa6be",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "975aed5a-34cf2fa9",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4905d28b-af4454fd",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4810d209-1b358a2a",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "36e47798-62f1302f",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "52cef201-9efbc282",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "23a1ec9d-e502bb63",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "009aecce-ab411438",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "28d23a7b-0937e0b2",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "17a50ff7-b4137f0b",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a8e3642b-c58af62e",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9d68faf5-179d775f",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4147ffb6-1a2d362c",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "906eec9d-3a4db6c5",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "021a0cdd-baff0e6d",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4bfac9ce-ab307cde",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0e6671dd-9a34594a",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "464b49a0-053fd8b2",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "36aacdfe-1a543b30",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a65d7ec1-3cce56c5",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "478d98ea-63bb6e02",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7449b65e-83910992",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a5753e44-35c532d6",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "39c2de15-bb9efbff",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5cc00cea-4a03f450",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9f600dc0-67f2edda",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a65d7ec1-e28cc031",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "745f1588-826f152a",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "11e1a5e4-ce4131c6",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1bcf2906-50102fca",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a540f9aa-9c33dc8a",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a71e0a8f-0431a685",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "78f5ea10-3b438287",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7c5e0dec-bd1a074b",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "93789fe1-dded0e58",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a8d310d8-a719d381",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "57bcc3c9-74343c02",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2f612db4-1fb3f5c1",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "041dc63f-940acc40",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "30ab8f70-fe717d15",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a5ffb322-aac4f8ad",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2c730c48-791a6638",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "71d396dd-d2a76610",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "47698213-645eaca1",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "651f59c3-fece484d",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2f57ff9d-764bc4b7",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6b5ce16b-2776d707",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3820baf8-bbf30280",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "42d47dba-e137ad4a",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2109b015-411cd4d1",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "62fbe0ad-6b597cf6",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "adb4871d-5d5a489a",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5d379513-65a1d787",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8cc99f48-ca215966",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2c4d0e3f-7a700bda",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0ea412be-19b2503a",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "045033c7-c84358fe",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0856b548-b7f1836f",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a85f276e-8c388ec0",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0568da9f-a9e68991",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "66c07452-d4abea3c",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "03ab1996-e974d94d",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "605434f1-dcf81a87",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5516424f-fdc91e0e",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "733b728d-41ea186b",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "16e7b7f8-68977c0d",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "59827fa9-5ed9c70e",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "aa6a1b97-9af6d579",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a9c8091c-55170794",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4254b062-a019ccd0",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6602260f-2fd2370d",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2dc83489-92589902",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6016fcef-de3e649d",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a787c044-03632afe",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "84a243fb-e70425bb",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "abc06e6c-8fc2a51c",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "95f66d4c-e0958a1a",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2c076724-02411199",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "80d5022e-2b13bb00",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "240ef20d-dc15a654",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "979b0259-84a6095b",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "53f7c5ed-9740f97d",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "724ed3c5-a0f0504b",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8f8041e9-bf6e85d4",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9a0c72d3-936d71ec",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "419377d8-a82e695b",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "29edfba4-91b1dc12",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "10391e15-a1ccc998",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0f29e988-46df2789",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "25139001-f332cd87",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "21863cf3-00945fde",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "62daf7d2-c5c67ede",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4fd90d20-bd958707",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "35b5c7db-b4279769",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "ad0b55ab-d3b92bb9",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "154b309d-0f2c5e1c",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "24d68796-3ab0c57f",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "b0df61c0-2ef8c8de",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4d194c53-4fcf8b81",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4e010145-07e849d2",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3f79cdaa-e2a5f699",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5667d700-cc138a8a",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "73c706af-25b59d4e",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "350c7a57-c383de06",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1d33c83b-71e1ea1c",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "289c48a3-1b2c75f5",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "73990194-9a36405f",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "287a82cf-cf376f4a",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "ad266689-ddea16ce",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "48ba7adf-7233fc20",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "328e2c2d-0b1d0e47",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5de867a6-9d6f6c8d",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9b3fe2a9-26a47a63",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a0fbee42-4b4a197b",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a5efc6fe-a95cd515",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3cbd3b9d-47bda4b0",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a3d1d710-59bd082a",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "30d85926-0a851fb3",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a5f4f83a-e446b580",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4d86b954-23960e2e",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "12f63f5a-ddd6c0fc",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "32b0a8c8-cb63e055",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "73f965f7-9c216c01",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0fb86701-19f58a57",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8a949c01-99047919",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8fddcd64-85cadf96",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5d446bb3-5bc3b05f",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4923bc51-fb1f5bd0",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "17e9b4b3-ef80d133",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "24a1154f-e2aab8d6",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "49a83f60-8aa4daa8",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "43948702-c97ae10a",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "97b65dd9-78bf212f",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "33ba8395-14f674b4",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "65acee46-e15323ae",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "adfc8f5c-d62c5e90",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "ac62d2fc-5f5998bd",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8cf4c763-031a543c",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "413166b2-a5307d98",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a6958306-f8d2ae5d",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4ecea805-f6b1cff4",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "aaed6ab8-94f5e858",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4ec755df-06c7cac2",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "23911ec3-96f5c5a5",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "afe34f1d-7dbf8d84",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7050a625-34177d69",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "819c7746-75fb87d2",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0fa9214d-857fb009",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8da3b274-f15830a8",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3995b456-d3bee363",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6f768c0c-88e2f693",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a2045a1d-39980ebd",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "50e1d290-8e18b657",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a0b3681d-2372cc4f",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "15ab701b-0d563753",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3a74f02b-a9cd645f",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a58615a2-7bec79ae",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "64505e49-c8831844",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2f97ca3c-e70f7c06",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6e9218ce-8a8926c1",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2660dad1-c4a4c7a1",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5fa147b9-55baebaa",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "42263b98-20c89e69",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "45739cbe-c610c01c",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7656f812-9d88b991",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4cf851c9-cd9138bd",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9f55533d-bb935f1e",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "ad930b5f-36f46e0f",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "67a1498c-a69eff29",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0bf28365-f426185c",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "95619ecb-2360e7eb",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "16595e94-27b3ed65",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "affa0246-22490c0f",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "86aaf7be-b1c58a99",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "58095711-d9e6185d",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a312aa02-6a740d7d",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4218716a-d5c28890",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "584004f5-efdb8523",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "61a24219-5898fdbd",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7ea893c5-5c5c6dd5",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "057a706b-9625bcc8",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6d2bd1d9-c01f656b",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "04c49cc4-f994251e",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2ae514af-612afd6f",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "08d0f0fe-55165a5e",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "aa560ef8-6397b662",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a6007607-ee4a373b",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "37a6e6eb-0073b3a5",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "59d3ef56-06bb8c46",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0c665e73-c29932bd",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6a7c3557-2c360d6c",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0391b282-79dba56d",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "31817fbb-e7a8d925",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7d6eb8b3-ced0cf84",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8c9322f0-33473f7b",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5b27653c-89147fc1",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0d30a992-984c8c78",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "aa2d6a57-22fb0605",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "585443c8-2621a6b1",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5c7a7a8c-66c76bcf",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9e70fd67-0c28fd9c",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7a520bcc-0ff4f873",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "09cb8de1-ff5ea772",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4b30e8d3-a93d93ac",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a5cb00c3-5ef8e9c4",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "026e1e49-771df1d9",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "12dab23b-c8087aa8",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "780039e8-84fea5e6",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "47d8d209-f0f1af64",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "65468a94-1c24ed26",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6d4805c2-9d649144",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "312c1d93-68e86150",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4192d5a6-dd58254d",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "702eb410-30df5faf",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "74b36c56-97ee57ce",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4c8db590-a747b0e6",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "07f1933b-a5f9ba5a",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0c34273d-87a7edaa",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4c115e0c-b0f550e3",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "91fa7dc6-a1b6bd26",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0f2cc9ea-628053e2",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "24c76ed2-0484b054",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6c0cc8ca-e1dd9997",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3b0b9074-6a44b3e6",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3cb86f14-3dad586c",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5cf7bc2e-4c476545",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "01ad8d8a-49bb0c93",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6442cd7c-69a95598",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8ad8f6b4-f2978c21",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "b0236409-633956a4",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9786a4a5-b2b471e2",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4550ffb2-8bfba026",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2777ef21-4f0b2a1a",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8464fc6e-18a4e863",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a098af74-9b3a13ac",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "57af37e5-0deab3af",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7cd33809-5864d2f3",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1f864b3f-e4948386",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "42f32dca-46be5fd6",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "62fdc262-aa5fad9b",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "46b110b6-f4bb1591",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4768327b-f62513d0",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3dbba701-943ecd2a",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3d9b1c8e-aed05f87",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5faf2808-1769111f",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "31be362f-31e68f6d",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1eb312f2-4d1926fa",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "776e663a-0ce99fe8",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "95ba3fda-3e44d9dc",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4b3849e4-5ae01b61",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2b009473-3ce5bf8b",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "55754f61-3d3c34f2",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "32acad4f-d45c57b9",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3c90d181-d0fc8378",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "53707d9f-86c1b91e",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "67507187-6fb1a66f",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "114f4b4e-7c04fd03",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "830dcf0f-aead93c8",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1b4f7545-439ca9aa",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1a47322a-72fb7390",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "84c59ad5-5bbf54b6",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1cacd06c-57be4099",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "547cace7-454fd9e5",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "97ea269f-5510039a",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7470e821-9af4806c",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a3d37500-40f3cb48",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5ce0f880-298aa072",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8c73bf23-7bb30471",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "513ffc59-3da5602e",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8ad2994f-0c531564",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "27153dc1-1efc323b",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "164cdd0c-fdb027df",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3fc4ffaf-d50f9cb1",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5184dabf-aacadf02",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "47019a35-a7dc3f07",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0cc71303-cf5d7ab2",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6212b116-75ba2aba",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "56272187-133abd03",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a87438b2-bf00b741",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "860c8b2a-999f39a5",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3d4b125d-04319b0c",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7141ba57-09753e94",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6446e573-c438832b",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8656e1e6-05f8df98",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "46425a02-b442a776",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "22e039a4-b92fe28b",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2b65e5fb-97a30d26",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3a7640bc-7b97c6a4",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "83ce8270-b1b93376",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7915c0ec-3a3ebf87",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2edb863b-fd4f0314",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "00cb28b9-08a22af7",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5503a6e2-c7437838",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3c217df3-b9f0b428",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "64b80d9c-a033de82",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4aa60073-84215755",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7312f55b-c01bab4a",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "89ee675b-4fc34ba0",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "171bc6d7-f2c598a5",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a65ac538-30463bfe",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "76bf1399-b3628128",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9275c992-6ee66800",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "94aa8729-9a601b11",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a7c4fa8d-c6422fbd",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7eeb9471-8de8cefc",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "31532c42-4f707e4c",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7b7195a8-83aa249d",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "43f6af12-d6b03883",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6a244000-1b1194fa",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "344533c0-2a4a197e",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "26e4858a-5797e2e0",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "547f682e-49a5706b",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "68333e0e-e9fc582b",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "54193c80-b089c793",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "af05f28b-e0a8724c",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4d3a055d-f4aa5eaa",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4f5bceb1-0fd78522",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5e762791-e6417727",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1bd07121-73968798",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "26cec0ca-3d0059af",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "570320c6-ce745fa2",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7b969653-94bbfb85",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "27efda05-9e5be110",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "88d4fc0c-16cb298e",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9c1b4928-c5558ac9",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "376e264a-5a94e71e",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "948a64a2-fa862b94",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5da521b1-a18c9ff2",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "205c57a8-cfe988ef",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0fcfcf5e-ab8bf480",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5891bfaf-042a1693",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "73d338d6-edf0b3db",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "524c80fc-e580408f",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "70d18190-c2a44d0e",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "312b6d0a-be5aeb9a",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9fd02acf-9ee9ce4e",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8727af13-4f094597",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "513afafd-bc5458e9",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2b8db53b-2d8cc323",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a2aef3f5-f42244a8",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "59aad6f2-437c24fd",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "70b46de9-5a51cc59",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "42fc4ae5-c15809ae",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "166ef80b-7625e157",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4df0ce35-cce6ca8a",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "11bf7bec-7600e6ca",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a2319601-47faec80",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "12524cde-776fedab",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "586a5c1f-3e8b7765",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0fdfe87a-1ceea931",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "51067bd4-4f69307a",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "472f9096-815ead4f",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "16d5d094-6bbeefaa",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "943a830f-6e2ff84c",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a3de7532-487e1e88",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a0c923fb-f53d5933",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "96378c9c-f609b374",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "893c6577-61f5b9bb",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "acb564f6-4b665c3d",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8d091799-924aac58",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "aa68b819-57ca4d75",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "b08cff3e-21c6ff47",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2a1306bc-71ec8afd",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0cc71303-887ac35f",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "98fce6ce-38dbd645",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6a45f822-75d2bea8",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a93f2ec8-7164b6ac",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8047ade7-2229ceef",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1a5dc090-88db7980",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "802ad4e3-33f4453c",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "276fe291-986d313d",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "66fab43d-11e25975",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4a2cad55-ffd08d16",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6bbc1c18-1244afd2",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "32a47c55-d9ef1ead",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "ad1be482-d8ab7370",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4d59fca4-9e060bfa",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "adf9e7c8-77b53e91",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "91a4614d-ebd211cb",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "429a9cb8-efc4b04b",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6b099ca0-11438264",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1294a00a-b6139782",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "924db79d-f3f8dbeb",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "057eea5e-7fe988ad",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7b969653-39b5e589",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "71dfad78-c92e6433",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a28a677a-34872890",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2c1527a4-e19233e2",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6af46b5b-541ab1ed",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a4f9ea62-7a058812",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "226e7dd7-d5c5e673",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2aef52cc-52ceef98",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "88a21c36-88bc8230",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7feb332a-6f1bb9fa",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "15ce1c41-de5905aa",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1d2eeabb-ebe027b7",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0540f550-72c78702",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "02d478d1-cfb83eb8",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2ea7ca3d-83a517c3",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "576de0e6-a8e41f7f",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "452f9d6d-cb7e723b",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a4224094-a841bb04",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0b33e96e-74d7ee88",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7a9f1f0b-ce4a66ff",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "84c4f7f3-e410adfb",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0d94fd39-3069549e",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9479b770-70ee59e2",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "9ffa2057-494b649c",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1be20f9b-c887ced4",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "35c56fff-673768b1",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "034fbacd-2017ee15",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "af8bf232-91c501cf",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6924d250-6a35cce6",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "110c9575-c7bb0c93",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4e406457-a1774287",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "369d3bc1-3070016c",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "11bfabe9-b15ca8b4",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8719e956-e6af93d1",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "616aaed5-68d3f30c",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "860c8b2a-05709900",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a4cef4d1-e4c1f09a",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0f837def-6802879c",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "56f433ce-31cfa708",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "6fc54df6-7b1d1b3b",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1b0ea19f-43d0bc95",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "15c96be0-3f77418c",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a7faa3f6-23dd131d",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "acab40dd-e3223ec9",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "030003dd-480d0868",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "ad8a89e6-10a7db9a",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "83a53eac-b2c08a1c",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "49747ca3-a6aca724",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "476f376b-807ef30b",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7930be0b-a16f8ab1",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8e1d8d90-bf850bb4",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "38879100-32510797",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "83334ad9-9100f22a",
+      "weather": 2,
+      "scene": 1,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "b167e74c-94abe143",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7e2dc156-25b2a42b",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "682b67b3-ddefaf66",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "49b4b380-125ee818",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a5f49541-41ac4d96",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1a2f603e-b4c5966d",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a08fa342-8cdc3786",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "356058ba-dceb5f35",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2b83b724-7fc1a648",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "47fae7f2-1a5ce657",
+      "weather": 5,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "439321d7-e21fde3d",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "28880bab-19176c55",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "89d0c161-f2d905d1",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "67b2dff8-4ab8ce58",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "38e47309-cfac1f75",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1b7f130c-f5b78906",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4e1e3ce6-0f4bf8b0",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "ab7217b3-e81cedf1",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "05ed3eee-e14a60a7",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4723cd57-6be8f936",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "8ed3282a-03a939b0",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "5c4d4a27-77892b24",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "ac63801e-e8e82746",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0dc6b4ab-56fc6e4f",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0e280165-84b9023a",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3c610203-ddb81a5b",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a27e99e7-a23f0ced",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a16471ef-ade2f942",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "720075c9-c3ed926e",
+      "weather": 0,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "21548a4c-542c2c8c",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "12dbce83-368f9b4c",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7f17a525-eb446052",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "55750ce4-2ca20343",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2586c43f-cbd4aa22",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "86e92caf-4a212b66",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "99ef4b3b-8607b29b",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "4ae5524b-92861cbd",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "34925140-a7e8185a",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "76227efe-610c522e",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0b5fc57f-f4550f96",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "78b703a0-f60ea894",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0d961c9e-9a087558",
+      "weather": 1,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "96d1ea02-2f3303cf",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "308dbb84-1b79ff69",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "60ad2176-37807e1b",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "2bb74555-95a9d5b9",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1d092676-5452b0c5",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "443d3285-9b836fc9",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "788a8a91-e7ea9838",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "06d5025c-bb0edff4",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3a3407a2-df8ea956",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "b04423c0-51830b54",
+      "weather": 1,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "771fbb7a-bd044abe",
+      "weather": 3,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0bef592b-ab6f4dee",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a27a785d-8ce32304",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3adde743-18ab2877",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "7c4d90f7-ca2c38cc",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a2712c14-816191b4",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "410fcb09-e02a2d0d",
+      "weather": 3,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "575917a0-85337b7a",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a2797858-b8cf7847",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "3db14e35-eaa35330",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a0dca814-0a06ec63",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a387de49-2ed37db8",
+      "weather": 1,
+      "scene": 1,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "84d9200f-6fa2824d",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0ac3cbf4-a764f88c",
+      "weather": 3,
+      "scene": 2,
+      "timeofday": 2,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "393f46a9-10858495",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "226e7dd7-d3150bf7",
+      "weather": 5,
+      "scene": 2,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "09db86ee-c9f4875b",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "52a7a96a-68161fc1",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0cb98c04-13604dd3",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "0077ccb8-d5778190",
+      "weather": 2,
+      "scene": 2,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "1c4fb740-7d8e3411",
+      "weather": 5,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a960c96a-343d6473",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "72b2ae75-a139d445",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "555ac361-f1f3ded8",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "73494fb5-809b2c77",
+      "weather": 2,
+      "scene": 0,
+      "timeofday": 1,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "475432e6-d01f681d",
+      "weather": 0,
+      "scene": 0,
+      "timeofday": 0,
+      "reason": "random baseline"
+    },
+    {
+      "image_id": "a240d7cc-792b408c",
+      "weather": 0,
+      "scene": 1,
+      "timeofday": 1,
+      "reason": "random baseline"
+    }
+  ]
+}

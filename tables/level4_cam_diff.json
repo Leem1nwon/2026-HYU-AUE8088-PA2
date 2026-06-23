@@ -1,0 +1,77 @@
+{
+  "metric": "mean pairwise mean-abs-diff of min-max-normalized head CAMs (higher = heads attend to more different regions)",
+  "cnn_resnet18": {
+    "method": "standard Grad-CAM on layer4 (last conv)",
+    "mean": 0.28947730809034466,
+    "per_image": [
+      {
+        "weather": "rainy",
+        "head_divergence": 0.25321025108028467
+      },
+      {
+        "weather": "clear",
+        "head_divergence": 0.3257443651004047
+      }
+    ],
+    "mean_20img": 0.240141885467594,
+    "figure_mean_3img": 0.27719416280266884,
+    "figure_images": [
+      [
+        "highway",
+        "daytime"
+      ],
+      [
+        "city street",
+        "night"
+      ],
+      [
+        "city street",
+        "dawn/dusk"
+      ]
+    ]
+  },
+  "vit_level3_best": {
+    "method": "multi-block accumulation (all 12 blocks, per-block min-max normalized then summed)",
+    "mean": 0.07245273143053055,
+    "per_image": [
+      {
+        "scene_timeofday": [
+          "highway",
+          "daytime"
+        ],
+        "head_divergence": 0.09074059128761292
+      },
+      {
+        "scene_timeofday": [
+          "city street",
+          "night"
+        ],
+        "head_divergence": 0.06272731721401215
+      },
+      {
+        "scene_timeofday": [
+          "city street",
+          "dawn/dusk"
+        ],
+        "head_divergence": 0.06389028578996658
+      }
+    ],
+    "figure_mean_3img": 0.07245273143053055,
+    "figure_images": [
+      [
+        "highway",
+        "daytime"
+      ],
+      [
+        "city street",
+        "night"
+      ],
+      [
+        "city street",
+        "dawn/dusk"
+      ]
+    ],
+    "mean_20img": 0.099
+  },
+  "note": "mean_20img = robust head-divergence over 20 evenly-spaced val images (report number); figure_mean_3img = the 3 illustrative figure images"
+}
