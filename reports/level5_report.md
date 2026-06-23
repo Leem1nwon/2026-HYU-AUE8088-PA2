@@ -10,11 +10,21 @@ base 모델 = ViT-S/16 ImageNet-pretrained best (`level3_best`, mixup-cutmix, **
 
 ## 1. 선별 전략
 
-**Hard-example + Rarity + 3축 균형.**
-- **uncertainty** = `1 − mean(max-softmax)` (3 head 평균) — base 모델(ViT best)이 헷갈리는 hard example.
-- **rarity** = 3속성 각각 Set A train 빈도 역수를 [0,1] 정규화(rarest=1)한 뒤 평균 — 소수 클래스/희귀 조합.
-- **score** = `0.5 · uncertainty + 0.5 · rarity`.
-- **3축 균형(핵심)** — score top-K를 그대로 뽑으면 rarity·uncertainty가 이중으로 최상위인 소수 클래스(dawn/dusk·residential)가 독식한다. 이를 막기 위해 **weather·scene·timeofday 모두에 클래스 캡**을 두고 score 순 greedy 선택한다.
+**목표**: Set B 15,000장 중 학습 효과가 가장 큰 **1,000장** 선별. 쉬운·흔한 이미지는 모델이 이미 잘 알아 배울 게 없으므로, **(1) 모델이 어려워하고 (2) 드문** 이미지를 우선한다. 두 신호를 점수화하고, 한 클래스가 독식하지 않게 균형을 잡는다.
+
+**① uncertainty — 모델이 헷갈리는 정도**
+- best 모델(ViT)로 Set B를 예측 → 각 head의 1등 예측 확신도(max-softmax)를 3 head 평균 → `uncertainty = 1 − 확신도`. **확신이 낮을수록 ↑**.
+- *왜*: 모델이 확신하는 쉬운 샘플은 추가 이득이 없다. **헷갈리는 샘플이 가장 정보량이 크다**(틀리는 문제를 풀어야 실력이 는다).
+
+**② rarity — 드문 클래스인 정도**
+- 각 속성에서 이 이미지 클래스의 Set A train 빈도 **역수**를 [0,1] 정규화(가장 드문 클래스=1.0) → 3속성 평균.
+- *왜*: 모델은 **데이터가 적은 드문 클래스에서 약하다**. 드문 클래스를 보강하면 불균형이 직접 개선된다.
+
+**③ score = `0.5 · uncertainty + 0.5 · rarity`** (반반) — 헷갈리면서 동시에 드문 샘플이 최고점.
+
+**④ 3축 균형 (핵심, multi-task 특유의 난점)**
+- score top-K를 그대로 뽑으면, **dawn/dusk·residential** 같은 소수 클래스는 *드물고(②↑) + 헷갈려서(①↑)* **두 점수 모두 최상위** → 1,000장을 독식해 **또 다른 불균형**을 만든다. 한 속성만 균형 잡으면 다른 속성이 쏠린다.
+- 해결: **weather·scene·timeofday 세 속성 모두에 클래스 정원(cap)** 을 두고, score 순으로 훑되 **세 클래스 중 하나라도 정원이 차면 건너뛴다**(greedy). → 어느 클래스도 과반을 못 넘고 3속성이 고르게 채워진다. (뷔페에서 "맛있는 것부터, 단 한 메뉴는 N번까지"와 같은 규칙.)
 
 ### 의사코드
 ```
