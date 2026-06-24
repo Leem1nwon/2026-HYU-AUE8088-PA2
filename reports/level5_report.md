@@ -10,36 +10,79 @@ base 모델 = ViT-S/16 ImageNet-pretrained best (`level3_best`, mixup-cutmix, **
 
 ## 1. 선별 전략
 
-**목표**: Set B 15,000장 중 학습 효과가 가장 큰 **1,000장** 선별. 쉬운·흔한 이미지는 모델이 이미 잘 알아 배울 게 없으므로, **(1) 모델이 어려워하고 (2) 드문** 이미지를 우선한다. 두 신호를 점수화하고, 한 클래스가 독식하지 않게 균형을 잡는다.
+**목표**: Set B 15,000장 중 학습 효과가 가장 큰 **1,000장** 선별. 쉽고 흔한 이미지는 모델이 이미 잘 맞혀서 더 배울 게 없다 → **(1) 모델이 어려워하고 (2) 드문** 이미지를 우선한다. 두 신호를 각각 0~1 점수로 만들어 합치고(score), 한 클래스가 1,000장을 독식하지 않도록 정원(cap)으로 균형을 잡는다.
 
-**① uncertainty — 모델이 헷갈리는 정도**
-- best 모델(ViT)로 Set B를 예측 → 각 head의 1등 예측 확신도(max-softmax)를 3 head 평균 → `uncertainty = 1 − 확신도`. **확신이 낮을수록 ↑**.
-- *왜*: 모델이 확신하는 쉬운 샘플은 추가 이득이 없다. **헷갈리는 샘플이 가장 정보량이 크다**(틀리는 문제를 풀어야 실력이 는다).
+### ① uncertainty — "모델이 얼마나 헷갈리는가"
 
-**② rarity — 드문 클래스인 정도**
-- 각 속성에서 이 이미지 클래스의 Set A train 빈도 **역수**를 [0,1] 정규화(가장 드문 클래스=1.0) → 3속성 평균.
-- *왜*: 모델은 **데이터가 적은 드문 클래스에서 약하다**. 드문 클래스를 보강하면 불균형이 직접 개선된다.
+base 모델(ViT best)로 Set B 이미지 한 장 `x`를 예측하면 head마다 softmax 확률 분포가 나온다. 그 head의 **1등 확률**(가장 확신하는 클래스의 확률)이 곧 그 속성에 대한 확신도다. 3 head의 확신도를 평균내고 1에서 빼면 불확실도가 된다:
 
-**③ score = `0.5 · uncertainty + 0.5 · rarity`** (반반) — 헷갈리면서 동시에 드문 샘플이 최고점.
+```
+confidence(x)  = (1/3) · Σ_a  max_c  p_a(c | x)        a ∈ {weather, scene, timeofday}
+uncertainty(x) = 1 − confidence(x)
+```
 
-**④ 3축 균형 (핵심, multi-task 특유의 난점)**
-- score top-K를 그대로 뽑으면, **dawn/dusk·residential** 같은 소수 클래스는 *드물고(②↑) + 헷갈려서(①↑)* **두 점수 모두 최상위** → 1,000장을 독식해 **또 다른 불균형**을 만든다. 한 속성만 균형 잡으면 다른 속성이 쏠린다.
-- 해결: **weather·scene·timeofday 세 속성 모두에 클래스 정원(cap)** 을 두고, score 순으로 훑되 **세 클래스 중 하나라도 정원이 차면 건너뛴다**(greedy). → 어느 클래스도 과반을 못 넘고 3속성이 고르게 채워진다. (뷔페에서 "맛있는 것부터, 단 한 메뉴는 N번까지"와 같은 규칙.)
+- `max_c p_a(c|x)` = head `a`가 1등으로 찍은 클래스의 확률(0~1). 1에 가까울수록 확신.
+- 예) head별 1등 확률이 weather 0.55 / scene 0.60 / timeofday 0.62인 이미지 → confidence 0.59 → **uncertainty 0.41**(헷갈림). 반대로 0.97 / 0.95 / 0.96인 쉬운 이미지 → confidence 0.96 → **uncertainty 0.04**.
+- *왜*: 모델이 이미 확신하는 샘플은 추가해도 새로 배울 게 없다. **헷갈리는 샘플이 정보량이 가장 크다**(틀리는 문제를 풀어야 실력이 는다 = hard-example mining).
+
+### ② rarity — "얼마나 드문 클래스인가"
+
+각 속성에서 그 이미지가 속한 클래스가 **Set A train에 몇 장 있었는지**(빈도)를 보고, 적을수록 높은 점수를 준다. 속성 `a`, 클래스 `k`의 학습 빈도를 `n_a(k)`라 하면:
+
+```
+rar_a(k)   = (1 / n_a(k)) / max_j (1 / n_a(j))  =  n_a(rarest) / n_a(k)      가장 드문 클래스 = 1.0
+rarity(x)  = (1/3) · Σ_a  rar_a( class_a(x) )                                 3속성 평균
+```
+
+즉 **가장 드문 클래스가 1.0, 흔할수록 0에 가깝다**. Set A train 실측 빈도로 계산하면:
+
+| 속성 | 드묾 → 흔함 (rarity 값) |
+|---|---|
+| scene | residential 1.00 > highway 0.40 > city street 0.18 |
+| timeofday | dawn/dusk 1.00 > night 0.18 > daytime 0.16 |
+
+- 예) **residential·dawn/dusk** 조합 이미지 → rarity ≈ mean(…, 1.00, 1.00) ≈ **0.67**(매우 높음). **city street·daytime** 흔한 이미지 → rarity ≈ mean(…, 0.18, 0.16) ≈ **0.11**(낮음).
+- *왜*: 모델은 **학습 데이터가 적은 클래스에서 약하다**. 드문 클래스를 보강하면 불균형이 직접 줄어든다.
+
+> **참고 — weather rarity는 의도적으로 약하게 작동한다.** foggy가 train 0장이라 위 식에서 `1/clamp(0,1)=1.0`이 정규화 최댓값을 차지해, 나머지 weather 클래스 rarity가 ≤0.005로 압축된다. 따라서 **weather 균형은 rarity가 아니라 ④의 cap(cap_w)** 이 책임진다(scene·timeofday는 정상 동작).
+
+### ③ score — 두 신호를 반반 합산
+
+```
+score(x) = 0.5 · uncertainty(x) + 0.5 · rarity(x)       λ = 0.5,  foggy는 score = −1 로 제외
+```
+
+헷갈리면서(①↑) **동시에** 드문(②↑) 샘플이 최고점이 된다. 위 예시로:
+- 드물고-헷갈린 이미지: `0.5·0.41 + 0.5·0.67 = `**`0.54`**
+- 흔하고-쉬운 이미지: `0.5·0.04 + 0.5·0.11 = `**`0.08`**  → 약 **7배** 차이.
+
+### ④ 3축 균형 (cap) — multi-task 특유의 난점
+
+score 상위만 그냥 뽑으면, **dawn/dusk·residential** 같은 클래스는 *드물고(②↑) + 헷갈려서(①↑)* score가 양쪽 모두 최상위 → 1,000장을 독식해 **또 다른 불균형**을 만든다. 한 속성만 균형 잡으면 다른 속성이 쏠린다. 그래서 **세 속성 모두에 클래스 정원(cap)** 을 두고, score 내림차순으로 훑되 후보의 weather/scene/timeofday 중 **하나라도 정원이 찼으면 건너뛴다**(greedy). n=1,000일 때 정원은:
+
+```
+cap_weather   = ⌊ n/5 · 1.8  ⌋ = 360      foggy 제외 5클래스, 균등치(n/5=200)의 1.8배까지 허용
+cap_scene     = ⌊ n/3 · 1.25 ⌋ = 416
+cap_timeofday = ⌊ n/3 · 1.25 ⌋ = 416
+```
+
+- 곱하는 계수(1.8, 1.25)는 "완전 균등(= n / 클래스수)"보다 약간 느슨하게 풀어, 흔하지만 정보량 있는 샘플도 어느 정도 담되 **과반은 못 넘게** 한 값이다. 그 결과 어떤 클래스도 1,000장의 절반을 못 넘는다(§2 분포: 최대가 residential / dawn/dusk 416, clear 341).
+- 뷔페 비유: "맛있는 것(score 높은 것)부터 담되, **한 메뉴는 N접시까지만**."
 
 ### 의사코드
 ```
-입력: Set B score[i], GT 라벨(weather/scene/timeofday), Set A train 분포
-1. rarity[i]  = mean over 3 attrs of normalized inverse-frequency
-2. score[i]   = 0.5·uncertainty[i] + 0.5·rarity[i]   (foggy 제외)
-3. greedy 선별: score 내림차순 순회
-     각 후보의 weather/scene/timeofday 클래스 카운트가
-     캡(cap_w = n/5·1.8, cap_s = n/3·1.25, cap_t = n/3·1.25) 미만일 때만 선택
-     → 어느 한 클래스도 과반을 넘지 못함
-4. n 미달 시 score 순으로 충원
-출력: balanced top-n picks (n = 1000; ablation용 250/500도 동일 방식)
+입력: Set B의 score[i], GT 라벨(weather/scene/timeofday), Set A train 빈도
+1. confidence[i] = mean_a( max_c softmax_a(x_i) );   uncertainty[i] = 1 − confidence[i]
+2. rarity[i]     = mean_a( rar_a(class_a(i)) )        # rar_a = 빈도 역수, 속성별 [0,1] 정규화
+3. score[i]      = 0.5·uncertainty[i] + 0.5·rarity[i] # foggy → −1 (제외)
+4. greedy 선별: score 내림차순 순회
+     후보의 weather/scene/timeofday 클래스 카운트가
+     cap_w(360) / cap_s(416) / cap_t(416) 미만일 때만 선택
+5. cap으로 n 미달 시 score 순으로 충원
+출력: balanced top-n picks (n=1000; ablation용 250/500도 동일, cap만 비례 축소)
 ```
 
-> **설계 노트(multi-task 충돌)**: 처음엔 score top-K만 사용해 dawn/dusk가 picks의 63%를 독식했고, timeofday 한 축만 쿼터로 잡자 이번엔 scene(residential 75%)이 독식했다. 한 축 균형이 다른 축 쏠림을 부르는 것이 multi-task 큐레이션의 핵심 난점이며, 3축 동시 캡으로 해소했다.
+> **설계 노트(multi-task 충돌)**: 처음엔 score top-K만 사용해 dawn/dusk가 picks의 63%를 독식했고, timeofday 한 축만 쿼터로 잡자 이번엔 scene(residential 75%)이 독식했다. 한 축 균형이 다른 축 쏠림을 부르는 것이 multi-task 큐레이션의 핵심 난점이며, **3축 동시 cap**으로 해소했다.
 
 ---
 
@@ -90,6 +133,10 @@ base 모델 = ViT-S/16 ImageNet-pretrained best (`level3_best`, mixup-cutmix, **
 - weather: clear 0.895/**0.911**, overcast 0.649/**0.679**, **partly cloudy 0.636/0.739**, snowy 0.723/0.723, rainy 0.729/0.719, foggy 0/0
 - scene: highway 0.715/**0.729**, **residential 0.558/0.596**
 - timeofday: dawn/dusk 0.522/**0.542**, night 0.983/0.985, daytime 0.951/0.952
+
+![클래스별 F1 향상 (random→picks)](../figures/level5_minority_gain.png)
+
+> **그림 — 큐레이션의 클래스별 F1 향상** (random-1000 → picks-1000, 둘 다 +1,000장이라 차이는 **큐레이션 효과만**, final-epoch). **소수 클래스(빨강)가 향상을 독점**한다: partly cloudy **+0.103**, residential +0.038, overcast +0.030, dawn/dusk +0.020. 다수 클래스(파랑)는 이미 0.83~0.98로 **포화**돼 변화가 미미(+0.002~+0.016). 유일한 하락 rainy −0.010은 소수↔소수 cross-attribute trade-off(§ Level 3 분석과 동일 패턴). 즉 큐레이션이 **약한 소수 클래스를 골라 끌어올리고 다수는 건드리지 않았다**.
 
 ![DI / ablation](../figures/level5_di_ablation.png)
 

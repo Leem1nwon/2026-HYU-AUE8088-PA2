@@ -1,30 +1,34 @@
 [
   {
     "name": "vgg16",
-    "params_M": 134.318156,
-    "gflops": 30.932434944,
-    "fps": 1042.6701492843126,
-    "avg_mf1": 0.5629202765572674
+    "params_M": 134.32,
+    "gflops": 30.93,
+    "fps": 105.6,
+    "avg_mf1": 0.5629,
+    "pareto": false
   },
   {
     "name": "resnet18",
-    "params_M": 11.182668,
-    "gflops": 3.627134976,
-    "fps": 922.7220987841962,
-    "avg_mf1": 0.6619722683360281
+    "params_M": 11.18,
+    "gflops": 3.63,
+    "fps": 392.3,
+    "avg_mf1": 0.662,
+    "pareto": true
   },
   {
     "name": "resnet50",
-    "params_M": 23.53262,
-    "gflops": 8.174321664,
-    "fps": 424.52503372316147,
-    "avg_mf1": 0.6243887990494476
+    "params_M": 23.53,
+    "gflops": 8.17,
+    "fps": 154.2,
+    "avg_mf1": 0.6244,
+    "pareto": false
   },
   {
     "name": "vit_s16",
-    "params_M": 21.670284,
-    "gflops": 8.481678336,
-    "fps": 368.17053993624603,
-    "avg_mf1": 0.7300707781013086
+    "params_M": 21.67,
+    "gflops": 8.48,
+    "fps": 141.4,
+    "avg_mf1": 0.7301,
+    "pareto": true
   }
 ]
